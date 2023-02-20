@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsFillEmojiHeartEyesFill,BsFillEmojiSmileFill, BsFillEmojiSmileUpsideDownFill ,BsEmojiLaughingFill } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 function Main() {
   return (
@@ -39,11 +40,7 @@ function Main() {
             </Link>
           </div>
       </div> 
-      <div className='flex justify-center items-center h-[10vh] bg-footer'>
-        <span className='text-gray-200'>
-          2023 Buğra Akgün tüm hakları saklıdır.
-        </span>
-      </div>
+      <Footer />
     </>
   )
 }

@@ -1,7 +1,9 @@
 import React from 'react'
 import Header from './Header'
+import Footer from './Footer'
 import {BsMailbox , BsLinkedin , BsGithub, BsTwitter} from 'react-icons/bs'
 import { DiHtml5, DiJavascript1, DiReact, DiCss3} from 'react-icons/di'
+
 function Profile() {
   return (
     <>
@@ -83,6 +85,7 @@ function Profile() {
               </div>
           </div>
       </div>
+      <Footer />
       
     </>
   )
