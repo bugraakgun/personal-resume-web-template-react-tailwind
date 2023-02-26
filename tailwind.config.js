@@ -22,7 +22,7 @@ module.exports = {
         'contact':"url('img/contact.jpg')",
         'about-section':"url('img/about-section.jpg')",
         'table':"url('img/table.jpg')",
-        'experience_1':"url('img/experience.jpg')"
+        'experience_1':"url('img/experience.jpg')",
       },
       boxShadow:{
         'main':'0 0 70px 2px rgba(0,0,0,0.91) inset',
