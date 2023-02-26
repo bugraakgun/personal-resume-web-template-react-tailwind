@@ -4,7 +4,7 @@ function Header() {
   const title = "<BugraAkgun.com.tr />"
   return (
     <nav className='h-24 grid grid-cols-6  text-center '>
-        <div className='col-span-2  bg-white hover:text-3xl transition-all'>
+        <div className='col-span-2  bg-main_white hover:text-3xl transition-all'>
           <Link className='w-full h-full inline-block  text-2xl font-medium' to="/">
             <span className='relative top-6  '>{title}</span>
           </Link>
