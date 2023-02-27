@@ -1,3 +1,10 @@
 *{
   font-family: 'Lato', sans-serif;
 }
+.slick-slide div:first-child{
+  margin-left: 1.5rem; /* 24px */
+  margin-right: 1.5rem; /* 24px */
+}
+.slick-track {
+  padding-bottom:70px;
+}
