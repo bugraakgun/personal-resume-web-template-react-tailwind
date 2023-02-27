@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import pp1 from '../img/profile-pp-1.png'
-import { BsMailbox, BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs'
+
 import { DiHtml5, DiJavascript1, DiReact, DiCss3 } from 'react-icons/di'
 import Slider from "react-slick";
 function Profile() {
@@ -19,35 +19,6 @@ function Profile() {
   return (
     <>
       <Header />
-      <div className='h-[40rem] bg-about-section bg-cover '>
-        <div className='grid grid-cols-2'>
-          <div className='col-start-2 pt-40'>
-            <span className='text-3xl font-normal text-white tracking-wide block'>
-              Hi, I' Am
-            </span>
-            <span className='text-4xl font-black text-white tracking-widest block mt-3'>
-              MUHAMMED BUGRA AKGÜN
-            </span>
-            <span className='text-xl font-normal text-theme_red tracking-wide block mt-3'>
-              Junior Front End Developer
-            </span>
-            <div className='mt-12'>
-              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 hover:opacity-80 transition-all hover:text-blue-600'>
-                <BsMailbox />
-              </a>
-              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-blue-600'>
-                <BsLinkedin />
-              </a>
-              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-blue-600'>
-                <BsGithub />
-              </a>
-              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-blue-600'>
-                <BsTwitter />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className='h-[36rem] bg-main_white flex flex-col justify-center items-center px-96'>
         <h1 className='text-4xl font-black tracking-widest'>ABOUT ME</h1>
         <h2 className='text-xl font-medium tracking-wider mt-9'>Junior Front End Developer</h2>
