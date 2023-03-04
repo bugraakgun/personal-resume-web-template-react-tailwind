@@ -45,16 +45,16 @@ function Header() {
               Junior Front End Developer
             </span>
             <div className='mt-12'>
-              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 hover:opacity-80 transition-all hover:text-blue-600'>
+              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 hover:opacity-80 transition-all hover:text-theme_red'>
                 <BsMailbox />
               </a>
-              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-blue-600'>
+              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-theme_red'>
                 <BsLinkedin />
               </a>
-              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-blue-600'>
+              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-theme_red'>
                 <BsGithub />
               </a>
-              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-blue-600'>
+              <a href="#" className='text-3xl bg-main_white inline-block rounded-full p-3 ml-4 hover:opacity-80 transition-all hover:text-theme_red'>
                 <BsTwitter />
               </a>
             </div>
