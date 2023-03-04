@@ -40,5 +40,9 @@
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical; 
     overflow:hidden;
-
+}
+/* for header active navbar*/
+.active {
+	border-bottom-width: 2px;
+	opacity: 0.8;
 }
