@@ -77,10 +77,10 @@ function Portfolio() {
     return (
         <>
             <Header />
-            <div className='bg-main_white flex flex-col justify-center items-center py-36'>
-                <h2 className='text-3xl font-black tracking-widest'>
+            <div className='bg-main_white flex flex-col justify-center items-center py-16'>
+                <h1 className='text-4xl font-black tracking-widest'>
                     PORTFOLIO SHOWCASE
-                </h2>
+                </h1>
                 <span className='mt-9 text-xl font-light'>
                     Web & Embedded Aplication
                 </span>

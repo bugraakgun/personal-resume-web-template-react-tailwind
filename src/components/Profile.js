@@ -19,7 +19,7 @@ function Profile() {
   return (
     <>
       <Header />
-      <div className='h-[36rem] bg-main_white flex flex-col justify-center items-center px-96'>
+      <div className=' bg-main_white flex flex-col justify-center items-center px-96 py-16'>
         <h1 className='text-4xl font-black tracking-widest'>ABOUT ME</h1>
         <h2 className='text-xl font-medium tracking-wider mt-9'>Junior Front End Developer</h2>
         <p className='text-lg font-light tracking-wider mt-9'>
