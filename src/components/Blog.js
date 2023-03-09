@@ -40,9 +40,15 @@ function Blog() {
               <p className="text-xl font-light tracking-wider mt-9 text-white w-3/4 text-justify blog-description">
                 {value.body}
               </p>
-              <button className=" px-16 py-5 mt-9 border-theme_red border  transition-all hover:opacity-80">
-                <Link to={`${value.id}/${value.title.toLowerCase().replace(/ /g,"-").slice(0,60)}`} className="text-theme_red text-lg font-medium">Read More</Link>
-              </button>
+              <Link
+                to={`${value.id}/${value.title
+                  .toLowerCase()
+                  .replace(/ /g, "-")
+                  .slice(0, 60)}`}
+                className=" px-16 py-5 mt-9 border-theme_red border  transition-all hover:opacity-80 text-theme_red text-lg font-medium"
+              >
+                Read More
+              </Link>
               <div className="mt-12">
                 <a
                   href="#"
